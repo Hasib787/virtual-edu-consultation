@@ -9,16 +9,31 @@
     <title>login</title>
 </head>
 <body>
-        <section>
-            <div class="l-SideBar col-md-5 col-sm-12">
+        <section class="row">
+            <div class="l-SideBar  col-lg-5 col-md-6 col-sm-12">
                 <div class="logo">
-                    <img src="../../images/icons/logo.png" alt="logo">
+                    <a href="#"> <img src="../../images/icons/logo.png" alt="logo"></a>
                 </div>
                 <div class="design-icon">
                     <img src="../../images/icons/XMLID 15.png" alt="a design img">
                 </div>
             </div>
-            <div class="col-md-7 col-sm-12"></div>
+            <div class="col-lg-7 col-md-6 col-sm-12 d-flex justify-content-center">
+                <div class="login-form shadow-lg p-3 mb-5 bg-white rounded ">
+                    <form class="p-3 ">
+                        <h5>Login Virtual Edu Consultation</h5>
+                        <div class="form-group">
+                          <input type="email" class="form-control mb-4 mt-4" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter your Email or phone number">
+                        </div>
+                        <div class="form-group">
+                          <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Enter your Password">
+                        </div>
+                        <p class="float-right"><a href="#">Forget Password?</a></p>
+                        <button type="submit" class="btn mb-5 ">Log in</button>
+                      </form>
+                      <p>Don't have an account?<a id="register" href="../registration/registration.html"> Register</a></p>
+                </div>
+            </div>
 
         </section>
 

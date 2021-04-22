@@ -1,3 +1,8 @@
+section{
+    height: 0 auto;
+    margin: 0;
+    padding: auto;
+}
 .l-SideBar{
     background-color: #0A8375;
 }
@@ -5,8 +10,29 @@
     width: 19%;
     margin: 37.87px 0px 0px 98.5px;
 }
+.design-icon{
+    height: auto;
+}
 .design-icon img{
     width: 50%;
-    margin: 51.4% 0% 0% -2.5%;
+    margin-top: 46.9%;
 
+}
+.login-form{
+    margin-top: 18%;
+    height: 328px;
+    width: 400px;
+    border-radius: 2px;
+
+}
+.btn{
+    color:white;
+    background-color:  #0A8375;
+    width: 100%;
+    font-size: 16px;
+}
+
+#register{
+   color:  #0A8375;
+   font-weight: bold;
 }
