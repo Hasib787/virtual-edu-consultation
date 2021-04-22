@@ -1,0 +1,58 @@
+section{
+    height: 0 auto;
+    margin: 0;
+    padding: auto;
+}
+.l-SideBar{
+    background-color: #0A8375;
+}
+.logo img{
+    width: 19%;
+    margin: 37.87px 0px 0px 98.5px;
+}
+.design-icon{
+    height: auto;
+}
+.design-icon img{
+    width: 50%;
+    margin-top:76.9%;
+
+}
+.register-form{
+    margin-top: 7%;
+    height: auto;
+    width: 400px;
+    border-radius: 2px;
+
+}
+.btn-main{
+    color:white;
+    background-color:  #0A8375;
+    width: 100%;
+    font-size: 16px;
+}
+.btn-alter{
+    border: 1px solid lightgray;
+    width: 100%;
+    font-size: 16px;    
+}
+
+#register{
+   color:  #0A8375;
+   font-weight: bold;
+}
+.orline{
+    line-height: 0.1em;
+    border-bottom: 1px solid rgb(184, 196, 194);
+}
+.or{
+    margin-left: 45%;
+    background-color: white;
+    padding-left: 15px;
+    padding-right: 15px;
+
+}
+.faIcon{
+    float: left;
+    margin-top: 4px;
+}
