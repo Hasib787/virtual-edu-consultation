@@ -60,6 +60,10 @@ border-radius: 10px;
     z-index: -4;
 
 }
+.pass-btn{
+    border: none;
+    padding: 2px 5px;
+}
 .active{
     background-color: #0A8375;
 }
@@ -90,6 +94,9 @@ border-radius: 10px;
     }
     .process-line{
         width: 75%;
+    }
+    .content-body{
+        padding: 2em;
     }
   }
   
