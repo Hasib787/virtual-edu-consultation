@@ -63,7 +63,7 @@
 .status a{
     text-decoration: none;
     color: black;
-   padding-right: 2rem;
+    padding: 5px;
   
 }
 .progress-container{
@@ -94,12 +94,29 @@ background: linear-gradient(69deg, rgba(146,189,255,1) 0%, rgba(54,157,201,1) 10
     border-radius: 10px;
     color:white;
 }
+.view ,.accept ,.cancel{
+    transition: .3s;
+}
+.view:hover{
+    background: #1473E6;
+    padding: 4px 10px;
+    color: white;
+}
+.accept:hover{
+    background: #2BC155;
+    padding: 4px 10px;
+    color: white;
+}
+.cancel:hover{
+    background: #F12222;
+    padding: 4px 10px;
+    color: white;
+}
 .notification img{
-    height: 38px;
-    margin-top: -4px;
+    height: 37px;
+    margin-top: -1px;
     margin-left: -3px;
 }
-
 @media screen and (max-width: 1390px) {
     
     .status a{
