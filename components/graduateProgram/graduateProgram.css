@@ -33,6 +33,9 @@
 .user_btn li a{
     text-decoration: none;
 }
+#navbarText ul li a{
+    color: black;
+}
  #main_nav #navbarText ul.user_btn li{
    display: inline-block;
 }
@@ -76,6 +79,31 @@
     background-size: cover;
     height: 530px;
 }
+.left-sider{
+    padding: 10% 0 0 14%;
+}
+.left-sider p{
+    margin: 12px 0 18px 0;
+}
+.search-form{
+    margin-left: -15px;
+}
+#search-btn button{
+    background-color: #464A77;
+    color: #fff;
+    font-size: 20px;
+    height: 42px;
+    margin-left: -8px;
+}
+
+
+
+
+
+
+
+
+
 @media screen and (max-width: 575.98px) {
     .navbarText{
         margin: 0px;
@@ -91,5 +119,16 @@
     }
     .main-header{
         background-size: 170%; 
+    }
+    .left-sider{
+        padding: 10% 2% 0 2%;
+    }
+    .search-form input{
+        width: 84%;
+        margin-left: 1%;
+    }
+    #search-btn button{
+        margin-top: -39%;
+        margin-left: 88%;
     }
 }
