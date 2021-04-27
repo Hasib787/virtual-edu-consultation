@@ -56,3 +56,15 @@ section{
     float: left;
     margin-top: 4px;
 }
+@media screen and (max-width: 575.98px) {
+    .logo img{  
+        margin: 30px;
+    }
+    .l-SideBar{
+        height: 100px;
+    }
+    .design-icon img{
+        width: 15%;
+        margin: -20% 0 0 84%;
+    }
+}

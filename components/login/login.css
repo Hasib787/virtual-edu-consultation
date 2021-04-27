@@ -37,3 +37,16 @@ section{
    font-weight: bold;
 }
 
+@media screen and (max-width: 575.98px) {
+    .logo img{
+        
+        margin: 20px;
+    }
+    .l-SideBar{
+        height: 100px;
+    }
+    .design-icon img{
+        width: 15%;
+        margin: -20% 0 0 84%;
+    }
+}
