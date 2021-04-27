@@ -22,7 +22,7 @@
     background-color: #FFFCF9;
 }
 #navbarText{
-    margin: 20px 135px 20px 216px;
+    margin: 20px 135px 20px 200px;
 }
 #logo img{
     margin-left: 108%;
@@ -70,7 +70,12 @@
    line-height:24px;
    margin:0 2px;
 }
-
+.main-header{
+    background-image: url('../../assets/images/studyInUK/bannerBG.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 530px;
+}
 @media screen and (max-width: 575.98px) {
     .navbarText{
         margin: 0px;
@@ -83,5 +88,8 @@
     }
     #navbarText{
         margin-left: 0%;
+    }
+    .main-header{
+        background-size: 170%; 
     }
 }
