@@ -95,7 +95,7 @@
     height: 42px;
     margin-left: -8px;
 }
-#program{
+#university-UK{
     margin-left: 10%;
     width: 100%;
 }
@@ -104,7 +104,7 @@
     height: 180px;
 }
 
-#program .program_slider_container .program_item img,
+#university-UK .program_slider_container .program_item img,
 #country .country_slider_container .country_item img,
 #subject .subject_slider_container .subject_item img{
    transition:all linear .2s;
@@ -118,7 +118,7 @@
    -ms-border-radius: 7px;
    -o-border-radius: 7px;
 }
-#program .program_slider_container .program_item:hover img,
+#university-UK .program_slider_container .program_item:hover img,
 #country .country_slider_container .country_item:hover img,
 #subject .subject_slider_container .subject_item:hover img{
    transform: scale(.99);
@@ -127,7 +127,7 @@
    -ms-transform: scale(.99);
    -o-transform: scale(.99);
 }
-#program .program_slider_container .program_item a.caption,
+#university-UK .program_slider_container .program_item a.caption,
 #country .country_slider_container .country_item a.caption,
 #subject .subject_slider_container .subject_item a.caption{
    display:block;
