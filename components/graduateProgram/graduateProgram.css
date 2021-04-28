@@ -95,7 +95,51 @@
     height: 42px;
     margin-left: -8px;
 }
+#program{
+    margin-left: 10%;
+    width: 100%;
+}
+.program_item a  img{
+    width: 300px;
+    /* margin-left: 34px; */
+    height: 180px;
+}
 
+#program .program_slider_container .program_item img,
+#country .country_slider_container .country_item img,
+#subject .subject_slider_container .subject_item img{
+   transition:all linear .2s;
+   -webkit-transition:all linear .2s;
+   -moz-transition:all linear .2s;
+   -ms-transition:all linear .2s;
+   -o-transition:all linear .2s;
+   border-radius: 7px;
+   -webkit-border-radius: 7px;
+   -moz-border-radius: 7px;
+   -ms-border-radius: 7px;
+   -o-border-radius: 7px;
+}
+#program .program_slider_container .program_item:hover img,
+#country .country_slider_container .country_item:hover img,
+#subject .subject_slider_container .subject_item:hover img{
+   transform: scale(.99);
+   -webkit-transform: scale(.99);
+   -moz-transform: scale(.99);
+   -ms-transform: scale(.99);
+   -o-transform: scale(.99);
+}
+#program .program_slider_container .program_item a.caption,
+#country .country_slider_container .country_item a.caption,
+#subject .subject_slider_container .subject_item a.caption{
+   display:block;
+   font-family: 'Comic Neue', cursive;
+   font-size: 22px;
+   font-weight: 700;
+   color: #000;
+   text-transform: capitalize;
+   text-decoration: underline;
+   margin-top: 20px;
+}
 
 
 
