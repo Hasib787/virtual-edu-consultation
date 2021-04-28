@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+ 
+}
+.sidebar{
+    min-height: 100vh;
+}
+.notification-profile {
+    width: 60px;
+    border-radius: 21px;
+}
+.section-Heading {
+    background-color: #0A8374;
+    padding: 1rem 3rem;
+    color: white;
+}
+.user-image{
+    border-radius: 50%;
+    border: 10px solid #E8E4DE;
+    height: 120px;
+    width: 120px;
+}
+.name-info {
+    line-height: 3.5px;
+    text-align: center;
+}
+.sidebar-menu{
+    font-family: jost;
+}
+.menu{
+    transition: 0.3s ;
+}
+.menu:hover{
+    background-color:#F4FCF6 ;
+    cursor: pointer;
+    border-left: 3px solid tomato;
+}
+
+
+.message{
+    
+    padding: 0px 1rem;
+    border-radius: 20px;
+    transition: 0.3s;
+    color: rgb(0, 0, 0);
+}
+.notification{
+    background-color: #FF8577;
+    margin-left: 1.5rem;
+    padding: 0px 1rem;
+    border-radius: 20px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+.notification a{
+    text-decoration: none;
+    color: black;
+    color: white;
+}
+.message:hover,.notification:hover{
+    background-color: #FF8577;
+    color: white;
+    cursor: pointer;
+}
+.message-text{
+    line-height: .5;
+}
+.text-number{
+    background-color:#0A8374;
+    padding:9px 7px;
+    color: white;
+    border-radius: 50%;
+}
+
+@media screen and (max-width: 1390px) {
+    
+    .status a{
+        line-height: 1.5;
+    }
+    .sidebar{
+        min-height: 100%;
+    }
+    .review-name{
+        line-height: 1.5px;
+    }
+}
+@media screen and (max-width: 1280px) {
+    .week-days-container{
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,22 @@
+body{
+    background-color: rgba(221, 217, 217, 0.575);
+}
+.modal-container{
+    background-color: rgba(255, 255, 255, 0.781);
+    margin: 0;
+    border-radius: 5px;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 1rem;
+}
+.btn-brand{
+    margin-top: 1rem;
+    border: none;
+    padding: .5rem 1rem;
+    border-radius: 5px;
+    background: #0A8375;
+    color: white;
+}
