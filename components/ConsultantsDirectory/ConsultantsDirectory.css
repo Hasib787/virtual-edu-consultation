@@ -194,6 +194,7 @@
     -ms-transition:all linear .3s;
     -o-transition:all linear .3s;
  }
+
  #footer .footer_item ul li:hover a{
     padding-left: 3px;
  }
@@ -277,10 +278,51 @@
         margin-left: -11%;
     }  
     #text-america {
-        margin: -11% 0 2% -9%;
+        margin: -12% 0 2% -9%;
     } 
     #text-computer {
-        margin: -11% 0 0 -10%;
+        margin: -12% 0 3% -10%;
+    }
+    #search-btn button{
+        font-size: 20px;
+        height: 42px;
+        margin-left: -10%;
+        width: 84%
+    }
+    .student {
+        width: 86%;
+        margin-left: 8%;
+    }
+    #s-image img {
+        margin: 0 0 4% 36%;
+    }
+    #text_area{
+        text-align: center;
+    }
+   
+    .btn-contact {
+        margin-bottom: 2%;
+        padding: 2% 6%;
+    }
+    .btn-phone{
+        margin-left: 0;
+        margin-bottom: 2%;
+        padding: 2% 4%;
+    }
+    .btn-video{
+        margin-left: 0;
+        margin-bottom: 2%;
+        padding: 2% 4%;
+    }
+    .star{
+        margin-left: 35%;
     }
 
+    #fee{
+        margin-left: 15%;
+        padding-bottom: 8%;
+    }
+    .footer_item{
+        padding-left: 5%;
+    }
 }
