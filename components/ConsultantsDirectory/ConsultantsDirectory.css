@@ -76,7 +76,33 @@
 .header-main{
     background-image: url(../../assets/images/bg_books.png);
     height: 23.5rem;
+    color: white;
 }
+.search-section{
+    padding-left: 25%;
+}
+.form-control{
+    width: 87%;
+}
+#What-searchbar{
+    margin-left: -16%;
+}
+#search-btn button{
+    background-color: #464A77;
+    color: #fff;
+    font-size: 20px;
+    height: 42px;
+    margin-left: -82%;
+}
+#text-america{
+    margin: -9% 0 0 3%;
+    font-size: 14px;
+}
+#text-computer{
+    margin: -9% 0 0 -13%;
+    font-size: 14px;
+}
+
 
 
 @media (max-width: 576px) {
