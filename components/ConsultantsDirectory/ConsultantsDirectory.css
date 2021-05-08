@@ -73,6 +73,10 @@
    line-height:24px;
    margin:0 2px;
 }
+.header-main{
+    background-image: url(../../assets/images/bg_books.png);
+    height: 23.5rem;
+}
 
 
 @media (max-width: 576px) {
