@@ -257,7 +257,7 @@
  }
  /* Footer Css End */
 
-@media (max-width: 576px) {
+@media (max-width: 600px) {
     .navbarText{
         margin: 0px;
     }
@@ -270,4 +270,17 @@
     #navbarText{
         margin-left: 0%;
     }
+    #where-searchbar{
+        margin-left: -11%;
+    }
+    #What-searchbar{
+        margin-left: -11%;
+    }  
+    #text-america {
+        margin: -11% 0 2% -9%;
+    } 
+    #text-computer {
+        margin: -11% 0 0 -10%;
+    }
+
 }
