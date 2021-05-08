@@ -15,7 +15,7 @@
     margin: 0;
     padding: 0;
  }
- #navbarText{
+#navbarText{
     margin-left: 6%;
 }
 #main_nav{
@@ -147,7 +147,7 @@
 
 
 
-@media screen and (max-width: 575.98px) {
+@media (max-width: 576px) {
     .navbarText{
         margin: 0px;
     }
