@@ -102,13 +102,61 @@
     margin: -9% 0 0 -13%;
     font-size: 14px;
 }
-
+.student{
+    width: 96%;
+    margin-left: 3%;
+}
+#s-image img{
+    margin-left: 8%;
+}
+.btn-contact{
+    border: 0;
+    border-radius: 3px;
+    padding: 3% 8%;
+}
+.btn-phone{
+    margin-left: -12%;
+    border: 0;
+    border-radius: 3px;
+    padding: 3% 8%;
+}
+.btn-video{
+    margin-left: -12%;
+    border: 0;
+    border-radius: 3px;
+    padding: 3% 8%;
+}
 .checked {
+    margin-right: 3px;
     color: orange;
-  }
+}
+.rating-text{
+    margin-bottom: 8%;
+}
+
+.left-arrow,.right-arrow{
+    background-color: #0A8374;
+    margin-left: 10px;
+    padding: 0px 6px;
+    height: 100%;
+    cursor: pointer;
+}
+.page-number{
+    margin-left: 10px;
+    transition: 0.3s;
+    height: 60%;
+    border-radius: 5px;
+}
+.page-number:hover{
+    background-color:#0A8374;
+    height: 100%;
+    color: white;
+    cursor: pointer;
+}
 
 /* Footer Css Start */
 #footer{
+    margin-top: 8%;
     padding:80px 0;
     background-image: url(../..//assets/images/footer_bg.jpg);
     background-size: cover;
