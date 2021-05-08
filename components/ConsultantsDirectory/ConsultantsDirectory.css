@@ -103,6 +103,9 @@
     font-size: 14px;
 }
 
+.checked {
+    color: orange;
+  }
 
 /* Footer Css Start */
 #footer{
