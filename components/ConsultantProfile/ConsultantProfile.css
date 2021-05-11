@@ -51,7 +51,7 @@
    -o-border-radius: 3px;
 }
 #main_nav #navbarText ul.user_btn li:first-child a{
-   background-color: #424B7B;
+   background-color: #0A8375;
    padding: 10px 18px;
 }
 #main_nav #navbarText ul.user_btn li:last-child a{
@@ -61,7 +61,7 @@
 #main_nav #navbarText ul.user_btn li:last-child a i:last-child{
    width: 24px;
    height: 24px;
-   color: #424B7B;
+   color: #0A8375;
    background-color: #FFFCF9;
    border-radius: 50%;
    -webkit-border-radius: 50%;
