@@ -73,6 +73,15 @@
    line-height:24px;
    margin:0 2px;
 }
+.headerTitel{
+    background-color:#0A8375;
+    height: 40px;
+}
+.headerTitel p{
+    padding-top: 5px;
+    margin-left: 11%;
+    color: white;
+}
 .bannerImg img{
     width: 100%;
 }
@@ -196,5 +205,8 @@
     }
     .footer_item{
         padding-left: 5%;
+    }
+    .headerTitel{
+        height: 60px;
     }
 }
