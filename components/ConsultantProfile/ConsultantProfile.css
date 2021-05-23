@@ -15,6 +15,7 @@
     margin: 0;
     padding: 0;
  }
+ /* Header start */
 #navbarText{
     margin-left: 6%;
 }
@@ -85,6 +86,7 @@
 .bannerImg img{
     width: 100%;
 }
+/* Header End */
 
 /* Footer Css Start */
 #footer{
