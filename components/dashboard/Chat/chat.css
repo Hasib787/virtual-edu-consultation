@@ -1,0 +1,249 @@
+*{
+    margin: 0;
+    padding: 0;
+ 
+}
+.sidebar{
+    min-height: 100vh;
+}
+.notification-profile {
+    width: 60px;
+    border-radius: 21px;
+}
+.section-Heading {
+    background-color: #0A8374;
+    padding: 1rem 3rem;
+    color: white;
+}
+.user-image{
+    border-radius: 50%;
+    border: 10px solid #E8E4DE;
+    height: 120px;
+    width: 120px;
+}
+.name-info {
+    line-height: 3.5px;
+    text-align: center;
+}
+.sidebar-menu{
+    font-family: jost;
+}
+.menu{
+    transition: 0.3s ;
+}
+.menu:hover{
+    background-color:#F4FCF6 ;
+    cursor: pointer;
+    border-left: 3px solid tomato;
+}
+.appointment{
+    text-decoration: none;
+    color: black;
+    padding: 6px 20px;
+    padding-bottom: 10px;
+    text-align: center;
+    transition: 0.3s ;
+    border-radius: 15px ;
+}
+.appointment:hover{
+    background-color: #FD3464;
+    border-radius: 15px;
+    color: white;
+}
+.client-table .row{
+    line-height: 1;
+}
+.client-image img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+.status{
+    text-align: center;
+}
+.status a{
+    text-decoration: none;
+    color: black;
+    padding: 4px 10px;
+  
+}
+
+.view ,.accept ,.cancel{
+    transition: .3s;
+}
+.view:hover{
+    background: #1473E6;
+    padding: 4px 10px;
+    color: white;
+}
+.accept:hover{
+    background: #2BC155;
+    padding: 4px 10px;
+    color: white;
+}
+.cancel:hover{
+    background: #F12222;
+    padding: 4px 10px;
+    color: white;
+}
+.left-arrow,.right-arrow{
+    background-color: #0A8374;
+    padding: 0px 6px;
+    height: 60%;
+    cursor: pointer;
+}
+.page-number{
+    transition: 0.3s;
+    height: 60%;
+    border-radius: 5px;
+}
+.page-number:hover{
+    background-color:#0A8374;
+    height: 60%;
+    color: white;
+    cursor: pointer;
+}
+.review-name{
+    line-height: .7;
+}
+.message{
+    background-color: #FF8577;
+    padding: 0px 1rem;
+    border-radius: 20px;
+    transition: 0.3s;
+    color: white;
+}
+.notification{
+    margin-left: 1.5rem;
+    padding: 0px 1rem;
+    border-radius: 20px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+.notification a{
+    text-decoration: none;
+    color: black;
+    transition: 0.3s;
+}
+.notification a:hover{
+    color: white;
+}
+.message,.notification:hover{
+    background-color:#FF8577;
+    color: white;
+    cursor: pointer;
+}
+.message-text{
+    line-height: .5;
+}
+.message-image{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+.text-number{
+    background-color:#00E65B;
+    padding:4px 10px;
+    color: white;
+    border-radius: 10px;
+}
+.top-head{
+    background-color: #F4F2EF;
+}
+.name-text{
+    line-height: .7;
+}
+.mid-container{
+    height: 100vh;
+    overflow: scroll;
+}
+.sent-text{
+    position: relative;
+}
+.sent-text-body{
+    min-width: 50%;
+    background-color: #FFF3F0;
+    border-radius: 6px;
+}
+.sent-text-body::after{
+    content: '';
+    right: -7.5px;
+    position: absolute;
+    top: 10px;
+    width: 15px;
+    height: 15px;
+    background-color: #FFF3F0;
+    transform: rotate(45deg);
+}
+.receive-text{
+    position: relative;
+}
+.receive-text-body{
+    width: 60%;
+    background-color: #DFECE8;
+    border-radius: 6px;
+}
+.receive-text-body::before{
+    content: '';
+    left: 45px;
+    position: absolute;
+    top: 10px;
+    width: 15px;
+    height: 15px;
+    background-color: #DFECE8;
+    transform: rotate(45deg);
+}
+.text-message{
+    padding: 10px 5px;
+    background-color:#F4F2EF;
+}
+.text-input{
+width: 70%;
+border: none;
+background-color:#E9E9E9;
+border-radius: 15px;
+padding: 5px;
+}
+.search-input{
+    border:1px solid rgba(128, 128, 128, 0.295);
+}
+.search-icon{
+    position: absolute;
+    left: 6.5rem;
+    top: .3rem;
+   
+}
+.chat-box{
+    overflow: scroll;
+    height: 100%;
+}
+.right-container{
+    height: 100vh;
+    scroll-behavior: auto;
+    
+}
+.name-chat-text{
+    line-height: .7;
+}
+@media screen and (max-width: 1390px) {
+    
+    .status a{
+        line-height: 1.5;
+    }
+    .sidebar{
+        min-height: 100%;
+    }
+    .review-name{
+        line-height: 1.5px;
+    }
+}
+@media screen and (max-width: 990px) {
+    .name-text{
+        display: none;
+    }
+}
+@media screen and (max-width: 1280px) {
+    .week-days-container{
+        flex-direction: column;
+    }
+}
