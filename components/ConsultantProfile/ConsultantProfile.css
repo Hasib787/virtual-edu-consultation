@@ -87,7 +87,15 @@
     width: 100%;
 }
 /* Header End */
+/* Profile section start */
+.profileImage img{
+   width: 200px;
+   height: 230px;
+   margin-top: 11%;
+   margin-left: 45%;
+   border-radius: 15px;
 
+}
 /* Footer Css Start */
 #footer{
     margin-top: 8%;
