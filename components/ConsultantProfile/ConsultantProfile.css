@@ -140,6 +140,27 @@ h1, h2, h3, h4, h5, h6, p, a, ul, span {
 .star .fa-star {
    margin-right: 2px;
 }
+/* profile section end */
+
+/* Pricing & offer section start */
+.pricing{
+   /* height: 500px; */
+   background-color: #0A8375;
+   background-image: url(../../assets/images/Mask\ Group.png);
+}
+.Pricing-header{
+   color: white;
+   border-bottom: 1px solid white;
+}
+#communication-navbar{
+   margin-left: 50%;
+}
+#communication-navbar ul li a{
+   color: white;
+
+}
+
+/* Pricing & offer section end */
 
 /* Footer Css Start */
 
