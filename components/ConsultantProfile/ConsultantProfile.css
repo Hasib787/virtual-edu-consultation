@@ -346,4 +346,20 @@ h1, h2, h3, h4, h5, h6, p, a, ul, span {
    .star {
       margin-left: 40%;
    }
+   .Pricing-header h4{
+      margin-left: 8%;
+   }
+   #communication-navbar{
+      margin-left: 0%;
+   }
+   .navbar-nav{
+      flex-direction: row!important;
+   }
+   .navbar-nav .nav-link {
+      padding-right: 13px;
+      padding-left: 14px;
+  }
+  .chat-text{
+     text-align: center;
+  }
 }
