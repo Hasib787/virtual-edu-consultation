@@ -152,12 +152,35 @@ h1, h2, h3, h4, h5, h6, p, a, ul, span {
    color: white;
    border-bottom: 1px solid white;
 }
+.Pricing-header h4{
+   margin-left: 14%;
+   margin-top: 2%;
+}
 #communication-navbar{
-   margin-left: 50%;
+   margin-left: 40%;
+   padding-top: 3%;
 }
 #communication-navbar ul li a{
    color: white;
-
+   font-size: 18px;
+}
+.nav-link:hover{
+   border-bottom: 3px solid orangered;
+}
+.chat-text{
+   color: white;
+   padding-top: 4%;
+   padding-left: 16%;
+}
+.fee-btn{
+   background-color: #FA6E44;
+}
+.fee-btn:hover{
+   background-color: #0955cf;
+}
+.chat-image img{
+   width: 72%;
+    margin-left: 20%;
 }
 
 /* Pricing & offer section end */
