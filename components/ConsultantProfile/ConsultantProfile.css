@@ -88,14 +88,37 @@
 }
 /* Header End */
 
+
 /* Profile section start */
 .profileImage img{
    width: 200px;
    height: 230px;
-   margin-top: 11%;
+   margin-top: 16%;
    margin-left: 45%;
    border-radius: 15px;
-
+}
+.btn-contact{
+   border: 0;
+   border-radius: 3px;
+   padding: 3% 8%;
+}
+.btn-phone{
+   margin-left: -42%;
+   border: 0;
+   border-radius: 3px;
+   padding: 3% 8%;
+}
+.btn-video{
+   margin-left: -77%;
+   border: 0;
+   border-radius: 3px;
+   padding: 3% 8%;
+}
+.star{
+   color: gray;
+}
+.star .fa-star{
+   margin-right: 2px;
 }
 /* Footer Css Start */
 #footer{
