@@ -185,6 +185,21 @@ h1, h2, h3, h4, h5, h6, p, a, ul, span {
 
 /* Pricing & offer section end */
 
+/* Education Background Section Start */
+.education{
+   background-image: url(../../assets/images/Rectangle\ 735.png);
+   height: 400px;
+}
+.edu-title{
+   text-align: center;
+   color: white;
+   height: 400px;
+   background: #212951d0;
+}
+.edu-title h2{
+   text-decoration: underline;
+}
+/* Education Background Section End */
 /* Footer Css Start */
 
 #footer {
