@@ -164,7 +164,7 @@ h1, h2, h3, h4, h5, h6, p, a, ul, span {
    color: white;
    font-size: 18px;
 }
-.nav-link:hover{
+.pricing-nav:hover{
    border-bottom: 3px solid orangered;
 }
 .chat-text{
@@ -188,15 +188,32 @@ h1, h2, h3, h4, h5, h6, p, a, ul, span {
 /* Education Background Section Start */
 .education{
    background-image: url(../../assets/images/Rectangle\ 735.png);
-   height: 400px;
 }
 .edu-title{
-   text-align: center;
    color: white;
-   height: 400px;
    background: #212951d0;
 }
+.circle-1{
+   margin: 25% 0 0 56%; 
+   height: 50px;
+   width: 50px;
+   background-color: #FA6E44;
+   border-radius: 50%;
+}
+.state-line{
+   margin-left: 63%;
+   height: 100px;
+   border-left: 2px solid white;
+}
+.circle-2{
+   margin-left: 56%;
+   height: 50px;
+   width: 50px;
+   background-color: #FA6E44;
+   border-radius: 50%;
+}
 .edu-title h2{
+   text-align: center;
    text-decoration: underline;
 }
 /* Education Background Section End */
@@ -367,10 +384,10 @@ h1, h2, h3, h4, h5, h6, p, a, ul, span {
    #communication-navbar{
       margin-left: 0%;
    }
-   .navbar-nav{
+   .pricing_navbar{
       flex-direction: row!important;
    }
-   .navbar-nav .nav-link {
+   .pricing_navbar .pricing-nav {
       padding-right: 13px;
       padding-left: 14px;
   }
