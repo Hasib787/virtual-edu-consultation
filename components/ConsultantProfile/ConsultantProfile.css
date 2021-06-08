@@ -394,4 +394,21 @@ h1, h2, h3, h4, h5, h6, p, a, ul, span {
   .chat-text{
      text-align: center;
   }
+  .circle-1{
+     margin-top: 6%;
+     margin-left: 5%;
+  }
+  .state-line{
+     height: 160px;
+     margin-left: 9%;
+  }
+  .circle-2{
+     margin-left: 5%;
+  }
+  .education-section{
+     margin: -56% 0 0 20%;
+  }
+  .educationDetails-section p{
+     width: 75%;
+  }
 }
