@@ -178,18 +178,29 @@ h1, h2, h3, h4, h5, h6, p, a, ul, span {
 .fee-btn:hover{
    background-color: #0955cf;
 }
-.chatImage img{
-   width: 72%;
-    margin-left: 20%;
+#phone{
+   display: none;
 }
-.phoneImage img{
+#video{
+   display: none;
+}
+.phoneImage{
+   padding: 75px;
+}
+.VideoImage{
+   padding: 75px;
+}
+.chatImage img{
    width: 72%;
    margin-left: 20%;
 }
-.VideoImage img{
-   width: 72%;
-    margin-left: 20%;
+.phoneImage img{
+   width: 58%;
 }
+.VideoImage img{
+   width: 51%;
+}
+
 
 /* Pricing & offer section end */
 
