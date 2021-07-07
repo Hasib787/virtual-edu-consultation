@@ -178,7 +178,15 @@ h1, h2, h3, h4, h5, h6, p, a, ul, span {
 .fee-btn:hover{
    background-color: #0955cf;
 }
-.chat-image img{
+.chatImage img{
+   width: 72%;
+    margin-left: 20%;
+}
+.phoneImage img{
+   width: 72%;
+   margin-left: 20%;
+}
+.VideoImage img{
    width: 72%;
     margin-left: 20%;
 }
